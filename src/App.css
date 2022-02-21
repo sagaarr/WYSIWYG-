@@ -45,11 +45,10 @@
 }
 
 .header {
-  /* text-align: initial; */
-  align-content: space-between;
-  border-bottom: 1px solid black;
-  padding: 17px auto;
-  padding-bottom: 4px;
+  border: 1px solid black;
+  margin: 0px 24px;
+  padding: 8px 0px;
+  display: flex;
 }
 
 .header button {
@@ -62,4 +61,18 @@
 .markdown-field {
   margin: 20px 18%;
   border: 1px solid black;
+}
+
+.markdown-field {
+  border: 1px solid black;
+  width: 94%;
+  height: 532px;
+  background-color: #fff27e;
+  padding: unset;
+  margin: unset;
+}
+
+.title {
+  margin-bottom: 26px;
+  margin-top: 7px;
 }
